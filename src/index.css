@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer components {
+  .categoryBtn {
+    @apply p-2 sm:px-3  shadow shadow-gray-400 border border-gray-400 bg-neutral-300  text-black rounded-lg
+  }
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-track{
+  border-radius: 5px;
+  background: #1f1b1e;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background: linear-gradient(to right, #1f1b1e, blue);
+
+}
